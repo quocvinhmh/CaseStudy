@@ -9,5 +9,5 @@ public interface IContractService {
  boolean addContract(Contract contract);
  boolean updateContract(int id, Contract contract);
  boolean deleteContract(int contractId);
- List<Contract> searchContract(String contractName);
+ List<Contract> searchContract(int contractID);
 }
